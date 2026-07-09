@@ -8,6 +8,5 @@ const PORT = process.env.PORT || 5000;
 app_1.default.listen(PORT, () => {
     console.log("=================================");
     console.log("🚀 BoardroomOS Backend Started");
-    console.log(`🌐 Server: http://localhost:${PORT}`);
     console.log("=================================");
 });

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://boardroomai-d1cr.onrender.com";
+const API = "https://boardroomai-d1cr.onrender.com/api/meeting";
 
 const api = axios.create({
   baseURL: API,
